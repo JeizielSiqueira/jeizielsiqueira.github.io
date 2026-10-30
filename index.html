@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Página inicial | Agente Jurídico — Inteligência</title><meta name="description" content="Agente independente para pesquisa jurídica brasileira, coleta de fontes públicas e backups de dados controlados pelo usuário."><link rel="stylesheet" href="/style.css"></head>
+<body><header><div class="wrap"><a class="brand" href="/">Agente Jurídico — Inteligência</a><nav aria-label="Navegação principal"><a href="/">Início</a><a href="/privacidade.html">Privacidade</a><a href="/termos.html">Termos de Uso</a></nav></div></header><main class="wrap"><div class="eyebrow">Ferramenta independente · uso controlado</div>
+<h1>Agente Jurídico — Inteligência</h1>
+<p class="lead">Sistema de apoio à pesquisa do Direito brasileiro: coleta de publicações institucionais e notícias jurídicas, organização de referências e consulta de conteúdo indexado.</p>
+<div class="panel"><h2>O que o agente faz</h2><ul>
+<li>Consulta fontes institucionais públicas, incluindo feeds RSS de tribunais.</li>
+<li>Armazena registros e histórico de alterações em banco SQLite pesquisável.</li>
+<li>Gera boletins de acompanhamento e backups versionados na pasta do Google Drive definida pelo operador.</li>
+<li>Registra a origem de cada informação e distingue notícias institucionais de documentos jurídicos primários ainda não validados.</li>
+</ul></div>
+<div class="notice"><strong>Não é fonte oficial nem aconselhamento jurídico.</strong> Notícias, sumários e resultados de pesquisa exigem conferência na publicação original, inclusive quanto à vigência, eficácia e situação processual.</div>
+<h2>Integração com Google Drive</h2>
+<p>O sistema funciona com autorização OAuth concedida pelo usuário. A versão atual solicita o escopo amplo <code>https://www.googleapis.com/auth/drive</code>, que tecnicamente permite ler e alterar arquivos do Drive autorizado. O fluxo programado utiliza essa autorização para localizar backups na pasta configurada, restaurá-los e enviar novos bancos, manifestos e relatórios. Não é uma permissão limitada tecnicamente a essa pasta.</p>
+<p>Os dados do Drive não são publicados neste site. A operação depende de autorização do titular, que pode revogá-la no Google a qualquer momento.</p>
+<div class="buttons"><a class="linkbtn" href="/privacidade.html">Como tratamos os dados</a><a class="linkbtn alt" href="/termos.html">Condições de uso</a></div>
+<h2>Responsável e contato</h2>
+<p>Projeto mantido por <a href="https://github.com/JeizielSiqueira">JeizielSiqueira</a>. Para dúvidas gerais, utilize o <a href="https://github.com/JeizielSiqueira/jeizielsiqueira.github.io/issues">canal público do projeto no GitHub</a>. Não publique credenciais, dados processuais confidenciais ou dados pessoais nesse canal.</p></main><footer><div class="wrap"><span>Projeto independente de pesquisa e inteligência jurídica. Última atualização: 30/10/2026.</span><p><a href="/privacidade.html">Política de Privacidade</a><a href="/termos.html">Termos de Uso</a><a href="https://github.com/JeizielSiqueira/jeizielsiqueira.github.io/issues">Contato público via GitHub</a></p></div></footer></body></html>
